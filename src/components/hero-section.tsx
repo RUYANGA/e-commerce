@@ -20,16 +20,19 @@ export default function HeroSection() {
                   Faster Agri-Shop Solutions
                 </h1>
                 <p className="mt-8 max-w-2xl text-pretty text-lg">
-                  Create modern agri-business apps the easy way. Whether you're
+                  Modern agri-business apps the easy way. Whether you&apos;re
                   connecting farmers to buyers or managing crop data, it gives
                   you simple, ready-to-use components that save time, reduce
-                  effort, and help your platform grow all without sacrificing
+                  effort, and help your platform grow — all without sacrificing
                   quality.
                 </p>
 
                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
                   <Button asChild variant="outline" size="sm">
-                    <Link href="#" className="bg-red-500 text-white hover:bg-indigo-700 hover:text-white">
+                    <Link
+                      href="#"
+                      className="bg-red-500 text-white hover:bg-indigo-700 hover:text-white"
+                    >
                       <ShoppingCart />
                       <span>Order</span>
                     </Link>
