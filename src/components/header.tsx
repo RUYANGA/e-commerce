@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 //import { Logo } from '@/components/logo'
-import { Menu, X } from 'lucide-react'
+import { Menu, ShoppingCart, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 
@@ -72,14 +72,18 @@ export const HeroHeader = () => {
                                     asChild
                                     variant="outline"
                                     size="sm">
-                                    <Link href="#">
-                                        <span>Login</span>
+                                    
+                                    <Link href="#" className="bg-red-500 text-white hover:bg-indigo-700 hover:text-white">
+                                    <ShoppingCart/>
+                                        <span>Order</span>
                                     </Link>
                                 </Button>
                                 <Button
                                     asChild
-                                    size="sm">
-                                    <Link href="#">
+                                    size="sm"
+                                    className='bg-indigo-500 font-bold hover:bg-indigo-700 hover:font-bold'
+                                    >
+                                    <Link href="#" >
                                         <span>Sign Up</span>
                                     </Link>
                                 </Button>
