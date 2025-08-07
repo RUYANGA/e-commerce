@@ -5,7 +5,7 @@ import { ReactNode } from 'react'
 
 export default function Features() {
     return (
-        <section className="bg-zinc-50 py-16 md:py-3 dark:bg-transparent">
+        <section className="bg-zinc-50 py-16 md:py-8 dark:bg-transparent">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-balance text-4xl font-semibold lg:text-3xl">Agri-Products</h2>
@@ -62,7 +62,7 @@ export default function Features() {
                             <p className="mt-3 text-sm">Elements to functionality, you have complete control to create a unique experience.</p>
                         </CardContent>
                     </Card>
-                   <Link href={''} className='flex underline text-blue-600 font-bold'>More</Link>
+                   {/* <Link href={''} className='flex underline text-blue-600 font-bold'>More</Link> */}
                 </div>
             </div>
         </section>

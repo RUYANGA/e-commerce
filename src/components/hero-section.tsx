@@ -31,10 +31,10 @@ export default function HeroSection() {
                   <Button asChild variant="outline" size="sm">
                     <Link
                       href="#"
-                      className="bg-red-500 text-white hover:bg-indigo-700 hover:text-white"
+                      className="bg-red-500 text-white hover:bg-indigo-700 hover:text-white "
                     >
                       <ShoppingCart />
-                      <span>Order</span>
+                      <span className="font-bold"> Order</span>
                     </Link>
                   </Button>
                   <Button

@@ -83,7 +83,7 @@ export const HeroHeader = () => {
                                     size="sm"
                                     className='bg-indigo-500 font-bold hover:bg-indigo-700 hover:font-bold'
                                     >
-                                    <Link href="#" >
+                                    <Link href="/signup" >
                                         <span>Sign Up</span>
                                     </Link>
                                 </Button>
