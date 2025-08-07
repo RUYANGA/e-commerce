@@ -125,7 +125,7 @@ export default function LoginComponet() {
 
                 <div className="p-3">
                     <p className="text-accent-foreground text-center text-sm">
-                        Don't have an account ?
+                       Don&apos;t have an account?
                         <Button
                             asChild
                             variant="link"
